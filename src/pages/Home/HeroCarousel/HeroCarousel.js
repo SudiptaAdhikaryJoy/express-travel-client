@@ -32,13 +32,13 @@ const HeroCarousel = () => {
     ]
 
     return (
-        <div className='bg-yellow-600'>
+        <div className='bg-slate-400'>
             <Slider className="w-11/12 mx-auto" {...settings}>
                 {
                     carouselItem.map((item, i) => <div key={i}>
                         <div className="flex items-center justify-center rounded-3xl py-16 h-5/6">
                             <div className="px-4 text-center space-y-4">
-                                <h1 className="text-white text-5xl font-bold">{item.hading}</h1>
+                                <h1 className="text- text-5xl font-bold">{item.hading}</h1>
                                 <h3 className="font-bold text-2xl">{item.name}</h3>
                                 <p className="w-8/12 mx-auto font-semibold text-gray-600">{item.description}</p>
                             </div>
