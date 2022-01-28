@@ -25,7 +25,7 @@ function DashboardDrawer(props) {
     };
 
     const drawer = (
-        <div className="bg-gray-900 h-screen text-yellow-400">
+        <div className="bg-gray-900 h-screen text-gray-200">
             <Toolbar />
             <List>
                 <Link to='/'>
